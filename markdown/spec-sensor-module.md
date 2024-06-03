@@ -1,7 +1,7 @@
 ---
 itemId: spec-sensor-module
 itemType: Software Item Spec
-itemFulfills: CS-1
+itemFulfills: CS-1,CS-3
 ---
 
 # Sensor Module (Markdown)
