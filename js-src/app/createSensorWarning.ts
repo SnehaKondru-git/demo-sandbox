@@ -5,7 +5,7 @@
 
  * @itemId:spec-sensor-reading-warning
  * @itemTitle:"Sensor Reading Warning (Javascript)"
- * @itemFulfills:CS-1
+ * @itemFulfills:CS-1,KD-20
  * @itemHasParent:spec-sensor-module
  */
 export function createReadingWarning() {
