@@ -1,5 +1,5 @@
 ---
-itemId: spec-sensor-module
+itemId: spec-data
 itemType: Software Item Spec
 itemFulfills: CS-1,CS-2,CS-3,KD-20
 itemHasParent: model.md
