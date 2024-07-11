@@ -33,37 +33,3 @@ Automated tests are executed and reported to Ketryx as part of the [CI/CD GitHub
       api-key: ${{ secrets.KETRYX_API_KEY }}
       build-name: ci-java
       test-junit-path: java-src/build/test-results/test/*.xml
-```
-
-## Install dependencies
-
-```bash
-npm install
-```
-
-## Running Tests
-
-Run unit and integration tests:
-
-```bash
-npm run test:unit-integration-ci
-```
-
-Run tests in watch mode:
-
-```bash
-npm test
-```
-
-Run end-to-end tests:
-
-```bash
-npm run test:e2e
-```
-
-Run Java unit tests:
-
-```bash
-cd java-src
-./gradlew test
-```
